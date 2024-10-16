@@ -1,4 +1,34 @@
-#w_icon{
-    height: 100px;
-    
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #1e8fff00, #00ced133);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: var(--primary-color);
+}
+#w_icon {
+  height: 100px;
+  margin-top: 10vh;
 }
